@@ -1,6 +1,5 @@
 let words =["swedish","open","fair","green","equal","queer","smart","chill"];
 let a=0;
-let b=0;
 
 function changeWord(){
     
@@ -12,6 +11,6 @@ function changeWord(){
 }
 
 
-setInterval(() => {
-    changeWord(),changeTitle()
-}, 1500);
+setInterval(() =>
+    changeWord(),
+ 1500);
