@@ -5,11 +5,14 @@ body{
     color: #fecb00;
     background-color: #005293;
     box-sizing: border-box;
-  
+
     margin: 0;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
+.high{
+  text-decoration: underline;
+}
 
 
 
@@ -17,9 +20,9 @@ body{
     text-align: center;
     font-size: 6.0625rem;
     line-height: 0;
-    letter-spacing: -5px; 
+    letter-spacing: -5px;
     font-weight: 400px;
-    
+
 }
 
 .container #add{
@@ -66,12 +69,12 @@ footer a{
 footer a:hover{
   color: aliceblue;
 }
-  
+
   /* the below code has to be written */
 /* @media (max-width:1000px) {
   .container{
-    
-    
+
+
 
   }
 } */
